@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav .enlaces {
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/*PAGINA LOGIN*/
+.login {
+    width: 60%;
+    height: 60%;
+    background-color: red;
+
+}
+
+.centrado { 
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
