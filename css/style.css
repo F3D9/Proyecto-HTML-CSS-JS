@@ -34,16 +34,45 @@ nav .enlaces {
 
 
 /*PAGINA LOGIN*/
-.login {
-    width: 60%;
-    height: 60%;
-    background-color: red;
+.formulario{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+h2{
+    margin: 1.5rem 0 2rem 0;
+    text-align: center;
+}
+label{
+    padding-left: 16px;
+    opacity: 0.75;
+}
+input{
+    display: flex;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    margin-top: 8px;
+    padding: 12px 24px;
+    width: 250px;
+    background-color: #EAEEED;
 
 }
-
-.centrado { 
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+input:focus{
+    opacity: 0.7;
+}
+#boton_form{
+    padding: 12px 48px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+    background-color: #1A1B27;
+    font-weight: 600;
+    width: 100%;
+}
+#boton_form:hover{
+    opacity: 0.8;
 }
