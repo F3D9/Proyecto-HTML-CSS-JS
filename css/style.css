@@ -1,11 +1,19 @@
+:root {
+--primario: #3498db;
+--oscuro: #196da5;
+--tamaño-fuente: 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
     height: 100vh;
+    background-image: linear-gradient(to right, var(--oscuro) 0%, var(--primario) 10%, var(--primario) 95%, var(--oscuro) 100%);
 }
 
 a {
@@ -16,11 +24,12 @@ a {
 header {
     position: sticky;
     top: 0;
+    background-color:var(--primario);
+    padding: 15px 5px;  
 }
 
 nav{  
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -28,10 +37,101 @@ nav .enlaces {
     width: 60%;
     list-style-type: none;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
+main {
+    width: 85%;
+    margin: auto;
+}
+
+.carrusel {
+    border: 1px solid black;
+    border-radius: 1.5em;
+    width: 60%;
+    max-width: 120em;
+    background-color: var(--primario);
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.carrusel .grande {
+    width: 400%;
+    height: 40vh;
+    background-color: var(--primario);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all .5s ease;
+    transform: translateX(0%);
+}
+
+.carrusel .img{
+    background-color: #fff;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: calc(100% / 4);
+    height: 100%;
+    padding: 10px;
+}
+
+.carrusel .img img{
+    height: 100%;
+}
+
+.carrusel .puntos {
+    width: 100%;
+    list-style-type: none;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carrusel .punto {
+    width: 2em;
+    height: 2em;
+    background-color: blue;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.carrusel .punto.activo{
+    width: 2em;
+    height: 2em;
+    background-color: red;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color:var(--primario);
+    padding: 40px 50px; 
+}
+
+footer .enlaces {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .logo {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+footer .copy {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
 
 /*PAGINA LOGIN*/
 .formulario{
@@ -77,8 +177,18 @@ input:focus{
     opacity: 0.8;
 }
 
-.carrusel{
-    background-color: aqua;
-    width: 95%;
-    margin: auto;
+/*PAGINA PRODUCTOS*/
+
+.productos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    justify-content: flex-start;
 }
+
+.productos .producto {
+    width: calc(100%/3 - 2em);
+    height: 250px;
+    background-color: red;
+    margin: 1em 1em;

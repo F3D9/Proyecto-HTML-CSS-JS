@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>TP0</title>
-    <link rel="stylesheet" href="estilos.css">
     <script src="main.js"></script>
 </head>
 <body>
@@ -15,25 +14,25 @@
             <div class="logo">Logo</div>
 
             <ul class="enlaces">
-                <li>Home</li>
-                <li>Productos</li>
-                <li>Nosotros</li>
+                <a href="index.html"><li>Home</li></a>
+                <a href="productos.html"><li>Productos</li></a>
+                <a href="nosotros.html"><li>Nosotros</li></a>
             </ul>
 
-            <button class="boton"><a href="">Ingresar</a></button>
+            <button class="boton"><a href="ingresar.html">Ingresar</a></button>
         </nav>
     </header>
     <main>
         <h1>Productos Destacados</h1>
         <div class="carrusel">
-            <div class="grande">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <div id="grande" class="grande">
+                <div class="img"><img src="./images/producto_1.jpg" alt="Auriculares"></div>
+                <div class="img"><img src="./images/producto_3.jpg" alt="Mouse"></div>
+                <div class="img"><img src="./images/producto_2.jpg" alt="Auriculares"></div>
+                <div class="img"><img src="./images/producto_4.jpg" alt="Teclado"></div>
             </div>
             <ul class="puntos">
-                <li class="punto"></li>
+                <li class="punto activo"></li>
                 <li class="punto"></li>
                 <li class="punto"></li>
                 <li class="punto"></li>
@@ -41,28 +40,17 @@
         </div>
     </main>
     <footer>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <!--despues le sacamos el br-->
-
-        <nav>
-            <div class="logo">Logo</div>
-
-            <ul class="enlaces">
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>otra red</li>
-            </ul>
-
-        </nav>
-        <br>
-        <p>@2023 Todos los derechos reservados</p>
+        <div class="logo">Logo</div>
+        <ul class="enlaces">
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>otra red</li>
+        </ul>
+        <p class="copy">@2023 Todos los derechos reservados</p>
 
     </footer>
 
     <script src="js/main.js"></script>
-
-    
-   
 <!--*>>>>>>> main*/>-->
 </body>
 </html>
