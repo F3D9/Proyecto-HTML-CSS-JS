@@ -76,3 +76,9 @@ input:focus{
 #boton_form:hover{
     opacity: 0.8;
 }
+
+.carrusel{
+    background-color: aqua;
+    width: 95%;
+    margin: auto;
+}
