@@ -50,7 +50,7 @@ nav .enlaces {
 
 .carrusel .grande {
     width: 400%;
-    background-color: orange;
+    background-color: var(--primario);
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -85,11 +85,11 @@ nav .enlaces {
 .carrusel .punto.activo{
     width: 2em;
     height: 2em;
-    background-color: orange;
+    background-color: var(--primario);
 }
 
 footer {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
     background-color:var(--primario);
@@ -157,4 +157,21 @@ input:focus{
 }
 #boton_form:hover{
     opacity: 0.8;
+}
+
+/*PAGINA PRODUCTOS*/
+
+.productos {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    justify-content: flex-start;
+}
+
+.productos .producto {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 5px 2em;
 }
