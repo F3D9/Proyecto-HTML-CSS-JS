@@ -1,5 +1,6 @@
 :root {
 --primario: #3498db;
+--oscuro: #196da5;
 --tamaño-fuente: 16px;
 }
 
@@ -11,9 +12,8 @@
 }
 
 body {
-    position: relative;
     height: 100vh;
-    background-color: #DDDDDD;
+    background-image: linear-gradient(to right, var(--oscuro) 0%, var(--primario) 10%, var(--primario) 95%, var(--oscuro) 100%);
 }
 
 a {
@@ -40,8 +40,15 @@ nav .enlaces {
     justify-content: space-around;
 }
 
+main {
+    width: 85%;
+    margin: auto;
+}
+
 .carrusel {
-    width: 100%;
+    border: 1px solid black;
+    border-radius: 1.5em;
+    width: 60%;
     max-width: 120em;
     background-color: var(--primario);
     margin: auto;
@@ -50,6 +57,7 @@ nav .enlaces {
 
 .carrusel .grande {
     width: 400%;
+    height: 40vh;
     background-color: var(--primario);
     display: flex;
     flex-flow: row nowrap;
@@ -59,15 +67,22 @@ nav .enlaces {
     transform: translateX(0%);
 }
 
-.carrusel img{
+.carrusel .img{
+    background-color: #fff;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
     width: calc(100% / 4);
-    min-height: 40vh;
+    height: 100%;
     padding: 10px;
+}
+
+.carrusel .img img{
+    height: 100%;
 }
 
 .carrusel .puntos {
     width: 100%;
-    background-color: red;
     list-style-type: none;
     padding: 1em;
     display: flex;
@@ -80,16 +95,19 @@ nav .enlaces {
     width: 2em;
     height: 2em;
     background-color: blue;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 .carrusel .punto.activo{
     width: 2em;
     height: 2em;
-    background-color: var(--primario);
+    background-color: red;
 }
 
 footer {
-    position: sticky;
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color:var(--primario);
@@ -162,7 +180,7 @@ input:focus{
 /*PAGINA PRODUCTOS*/
 
 .productos {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 1em;
@@ -170,8 +188,8 @@ input:focus{
 }
 
 .productos .producto {
-    width: 250px;
+    width: calc(100%/3 - 2em);
     height: 250px;
     background-color: red;
-    margin: 5px 2em;
+    margin: 1em 1em;
 }
