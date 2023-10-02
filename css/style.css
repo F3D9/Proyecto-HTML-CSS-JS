@@ -40,6 +40,54 @@ nav .enlaces {
     justify-content: space-around;
 }
 
+.carrusel {
+    width: 100%;
+    max-width: 120em;
+    background-color: var(--primario);
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.carrusel .grande {
+    width: 400%;
+    background-color: orange;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all .5s ease;
+    transform: translateX(0%);
+}
+
+.carrusel img{
+    width: calc(100% / 4);
+    min-height: 40vh;
+    padding: 10px;
+}
+
+.carrusel .puntos {
+    width: 100%;
+    background-color: red;
+    list-style-type: none;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carrusel .punto {
+    width: 2em;
+    height: 2em;
+    background-color: blue;
+}
+
+.carrusel .punto.activo{
+    width: 2em;
+    height: 2em;
+    background-color: orange;
+}
+
 footer {
     position: absolute;
     bottom: 0;
