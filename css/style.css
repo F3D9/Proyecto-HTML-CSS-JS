@@ -1,11 +1,19 @@
+:root {
+--primario: #3498db;
+--tamaño-fuente: 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
+    position: relative;
     height: 100vh;
+    background-color: #DDDDDD;
 }
 
 a {
@@ -16,11 +24,12 @@ a {
 header {
     position: sticky;
     top: 0;
+    background-color:var(--primario);
+    padding: 15px 5px;  
 }
 
 nav{  
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -28,10 +37,35 @@ nav .enlaces {
     width: 60%;
     list-style-type: none;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:var(--primario);
+    padding: 40px 50px; 
+}
+
+footer .enlaces {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .logo {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+footer .copy {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
 
 /*PAGINA LOGIN*/
 .formulario{
