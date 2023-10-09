@@ -1,7 +1,7 @@
 :root {
---primario: #3498db;
---oscuro: #196da5;
---tamaño-fuente: 16px;
+    --primario: #3498db;
+    --oscuro: #196da5;
+    --tamaño-fuente: 16px;
 }
 
 * {
@@ -9,6 +9,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -24,11 +25,11 @@ a {
 header {
     position: sticky;
     top: 0;
-    background-color:var(--primario);
-    padding: 15px 5px;  
+    background-color: var(--primario);
+    padding: 15px 5px;
 }
 
-nav{  
+nav {
     display: flex;
     justify-content: space-around;
 }
@@ -67,7 +68,7 @@ main {
     transform: translateX(0%);
 }
 
-.carrusel .img{
+.carrusel .img {
     background-color: #fff;
     border-bottom: 1px solid black;
     display: flex;
@@ -77,7 +78,7 @@ main {
     padding: 10px;
 }
 
-.carrusel .img img{
+.carrusel .img img {
     height: 100%;
 }
 
@@ -100,7 +101,7 @@ main {
     cursor: pointer;
 }
 
-.carrusel .punto.activo{
+.carrusel .punto.activo {
     width: 2em;
     height: 2em;
     background-color: red;
@@ -110,8 +111,8 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color:var(--primario);
-    padding: 40px 50px; 
+    background-color: var(--primario);
+    padding: 40px 50px;
 }
 
 footer .enlaces {
@@ -134,20 +135,23 @@ footer .copy {
 }
 
 /*PAGINA LOGIN*/
-.formulario{
+.formulario {
     display: flex;
     justify-content: center;
     padding-top: 3rem;
 }
-h2{
+
+h2 {
     margin: 1.5rem 0 2rem 0;
     text-align: center;
 }
-label{
+
+label {
     padding-left: 16px;
     opacity: 0.75;
 }
-input{
+
+input {
     display: flex;
     border-radius: 50px;
     border-style: none;
@@ -158,10 +162,12 @@ input{
     background-color: #EAEEED;
 
 }
-input:focus{
+
+input:focus {
     opacity: 0.7;
 }
-#boton_form{
+
+#boton_form {
     padding: 12px 48px;
     border-radius: 50px;
     color: white;
@@ -173,7 +179,8 @@ input:focus{
     font-weight: 600;
     width: 100%;
 }
-#boton_form:hover{
+
+#boton_form:hover {
     opacity: 0.8;
 }
 
@@ -192,3 +199,4 @@ input:focus{
     height: 250px;
     background-color: red;
     margin: 1em 1em;
+}
