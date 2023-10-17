@@ -1,7 +1,9 @@
-export function ChargeStructures() {
+export function cargarEstructuras() {
     const Header = ` <header>
     <nav>
-        <div class="logo">Logo</div>
+        <div class="logo">
+            <img src="../images/TecnoTrendy-Logo.png" alt="Tecno Trendy">
+        </div>
 
         <ul class="enlaces">
             <a href="home.html">
@@ -19,11 +21,13 @@ export function ChargeStructures() {
     </nav>
 </header>`
     const Footer = `<footer>
-<div class="logo">Logo</div>
+<div class="logo">
+    <img src="../images/TecnoTrendy-Logo.png" alt="Tecno Trendy">
+</div>
 <ul class="enlaces">
-    <li>Instagram</li>
-    <li>Facebook</li>
-    <li>otra red</li>
+    <i class="fa-brands fa-instagram fa-xl icon" style="color: #000000;" > <span>Instagram </span></i>
+    <i class="fa-brands fa-square-facebook fa-xl icon" style="color: #000000;"><span>Facebook</span></i>
+    <i class="fa-brands fa-linkedin fa-xl icon" style="color: #000000;"><span>Linkedin</span></i>
 </ul>
 <p class="copy">@2023 Todos los derechos reservados</p>
 

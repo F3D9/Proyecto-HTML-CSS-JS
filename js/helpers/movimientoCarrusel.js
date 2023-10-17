@@ -1,4 +1,4 @@
-export function carruselMovement() {
+export function movimientoCarrusel() {
     const grande = document.getElementById("grande")
     const punto = document.getElementsByClassName("punto")
     for (let i = 0; i < punto.length; i++) {

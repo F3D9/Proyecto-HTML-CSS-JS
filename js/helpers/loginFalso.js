@@ -1,4 +1,4 @@
-export function falselogin() {
+export function falsoLogin() {
 
     let buttonSend = document.querySelector("#boton_form")
     document.addEventListener("click", e => {
@@ -7,8 +7,10 @@ export function falselogin() {
             const form = document.querySelector("form")
             e.preventDefault()
             if (form.usuario.value && form.contraseña.value) {
-                window.location.href = "/home.html"
+                window.location.href = "./Pages/home.html"
             }
         }
     })
 }
+
+falsoLogin()
