@@ -1,7 +1,7 @@
 :root {
---primario: #3498db;
---oscuro: #196da5;
---tamaño-fuente: 16px;
+    --primario: #3498db;
+    --oscuro: #196da5;
+    --tamaño-fuente: 16px;
 }
 
 * {
@@ -9,12 +9,20 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     height: 100vh;
     background-image: linear-gradient(to right, var(--oscuro) 0%, var(--primario) 10%, var(--primario) 95%, var(--oscuro) 100%);
 }
+
+
+.icon span {
+    font-size: 18px;
+    margin-left: 1rem;
+}
+
 
 a {
     color: #000;
@@ -23,14 +31,20 @@ a {
 
 header {
     position: sticky;
+    z-index: 999;
     top: 0;
-    background-color:var(--primario);
-    padding: 15px 5px;  
+    background-color: var(--primario);
+    padding: 15px 20px;
+    width: 100%;
+    height: 12vh;
 }
 
-nav{  
+nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 nav .enlaces {
@@ -38,11 +52,66 @@ nav .enlaces {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    font-size: 18px;
+}
+
+nav .enlaces a li {
+    position: relative;
+}
+
+nav .enlaces a li::before {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+nav .enlaces a:hover li::before {
+    opacity: 1;
+}
+
+nav .boton {
+    padding: 10px 2rem;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+}
+
+nav .boton:hover {
+    background-color: black;
+    transition: all .3s ease-in-out;
+}
+
+nav .boton:hover a {
+    color: white;
+}
+
+nav .logo,
+footer .logo {
+    width: 250px;
+    height: 100%;
+}
+
+nav .logo img,
+footer .logo img {
+    width: 100%;
+    height: 10vh;
+    object-fit: cover;
 }
 
 main {
     width: 85%;
+    min-height: 100vh;
     margin: auto;
+}
+
+main h1 {
+    margin: 2rem 0;
 }
 
 .carrusel {
@@ -67,7 +136,7 @@ main {
     transform: translateX(0%);
 }
 
-.carrusel .img{
+.carrusel .img {
     background-color: #fff;
     border-bottom: 1px solid black;
     display: flex;
@@ -77,7 +146,7 @@ main {
     padding: 10px;
 }
 
-.carrusel .img img{
+.carrusel .img img {
     height: 100%;
 }
 
@@ -100,7 +169,7 @@ main {
     cursor: pointer;
 }
 
-.carrusel .punto.activo{
+.carrusel .punto.activo {
     width: 2em;
     height: 2em;
     background-color: red;
@@ -110,8 +179,13 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color:var(--primario);
-    padding: 40px 50px; 
+    background-color: var(--primario);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 14vh;
 }
 
 footer .enlaces {
@@ -119,13 +193,18 @@ footer .enlaces {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
 }
 
-footer .logo {
-    position: absolute;
-    top: 5px;
-    left: 5px;
+footer .enlaces .icon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
 }
+
+
 
 footer .copy {
     position: absolute;
@@ -134,20 +213,23 @@ footer .copy {
 }
 
 /*PAGINA LOGIN*/
-.formulario{
+.formulario {
     display: flex;
     justify-content: center;
     padding-top: 3rem;
 }
-h2{
+
+h2 {
     margin: 1.5rem 0 2rem 0;
     text-align: center;
 }
-label{
+
+label {
     padding-left: 16px;
     opacity: 0.75;
 }
-input{
+
+input {
     display: flex;
     border-radius: 50px;
     border-style: none;
@@ -158,10 +240,12 @@ input{
     background-color: #EAEEED;
 
 }
-input:focus{
+
+input:focus {
     opacity: 0.7;
 }
-#boton_form{
+
+#boton_form {
     padding: 12px 48px;
     border-radius: 50px;
     color: white;
@@ -173,7 +257,8 @@ input:focus{
     font-weight: 600;
     width: 100%;
 }
-#boton_form:hover{
+
+#boton_form:hover {
     opacity: 0.8;
 }
 
@@ -181,14 +266,14 @@ input:focus{
 
 .productos {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1em;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
 }
 
+
 .productos .producto {
-    width: calc(100%/3 - 2em);
+    width: 100%;
     height: 250px;
     background-color: red;
-    margin: 1em 1em;
+}
