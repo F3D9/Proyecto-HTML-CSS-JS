@@ -1,0 +1,324 @@
+[
+    {
+        "id": 1,
+        "producto": "Samsung S21 FE",
+        "descripcion": "<p>El Galaxy S21 FE 5G tiene todo lo que te gusta en 6,4 pulgadas, un tamaño diseñado para conectarte con amigos, explorar nuevas pasiones, realizar una transmisión en vivo y disfrutar durante horas de tus programas favoritos.</p><p>Las transiciones más suaves:</p><span>- Nuestra pantalla de desplazamiento más suave gracias a Super Smooth 120Hz; tus pulgares te lo agradecerán. Optimiza la frecuencia de actualización para suavizar las transiciones de tus redes sociales y te permite experimentar tiempos de respuesta táctil rápidos en el modo Juegos. Es perfecto para vencer al último jefe.</span><p> La sensación de una pantalla grande que puedes sostener con una mano:</p><span>- Una pantalla envolvente tan increíble que olvidarás lo que es real. No solo los biseles son considerablemente más delgados para una vista más amplia, sino que la pantalla Dynamic AMOLED 2X del Galaxy S21 FE 5G ofrece un color y un brillo vibrantes incluso con exceso de luz solar.</span><p> Haz que cada foto sea épica:</p><span>- La cámara de nivel profesional del Galaxy S21 FE ofrece contenido digno de igual calidad, ya que captura fotos y videos increíblemente realistas con un nivel de detalle superior.</span><p> Convertí selfies en obras de arte:</p><span>- Sin filtro, sin miedo. Domina el juego de las selfies. Tus características se resaltan y refinan para que luzcas lo mejor posible en todas tus redes sociales.</span><p> Adiós a las pesadillas de la batería de poca duración:</p><span>- La batería de 4500 mAh funciona junto con la pantalla y el procesador de bajo consumo para durar más que el día, incluso con la tecnología 5G, de modo que puedas hacer una maratón de muchos episodios y conocer más sobre las últimas tendencias.</span><p> ¿Se mojó el teléfono? No te preocupes:</p><span>- Tu teléfono está salvo de salpicaduras y seguro a una profundidad de hasta 1,5 metros de agua durante 30 minutos.</span>",
+        "precio": 373199.00,
+        "stock": 5,
+        "marca": "Samsung",
+        "categoria": "celulares",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_806072-MLA48880349497_012022-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_712842-MLA48880358449_012022-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_939528-MLA48880365471_012022-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_749464-MLA48880354455_012022-O.webp"
+        ]
+    },
+    {
+        "id": 2,
+        "producto": "Apple Iphone 12 (128gb)",
+        "descripcion": "<p>El iPhone 12 tiene una espectacular pantalla Super Retina XDR de 6.1 pulgadas . Un frente de Ceramic Shield, cuatro veces más resistente a las caídas . Modo Noche en todas las cámaras, para que puedas tomar fotos increíbles con poca luz. Grabación, edición y reproducción de video en Dolby Vision con calidad cinematográfica. Y el potente chip A14 Bionic. Además, es compatible con los nuevos accesorios MagSafe, que se acoplan fácilmente a tu iPhone y permiten una carga inalámbrica más rápida . Que comience la diversión.</p>",
+        "precio": 934000.00,
+        "stock": 3,
+        "marca": "Apple",
+        "categoria": "celulares",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_743195-MLA45719932493_042021-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_784571-MLA45729987876_042021-O.webp"
+        ]
+    },
+    {
+        "id": 3,
+        "producto": "Moto Edge 30 Ultra",
+        "descripcion": "<p>EL SISTEMA DE CÁMARAS CON LA RESOLUCIÓN MÁS ALTA EN LA INDUSTRIA</p><span>-Captura fotos detalladas en condiciones de poca luz con el increíble sensor de 200 MP con tecnología Ultra Pixel. Obtén un área de visión más amplia con el lente ultra gran angular de 50 MP.</span><p>CAPTURA MOMENTOS ÚNICOS</p></span>-Te presentamos la primera cámara de 200 MP del mercado. El sensor está diseñado para equilibrar perfectamente las luces y las sombras, lo que da como resultado imágenes nítidas y brillantes para los momentos más importantes de tu vida.</span><p>CARGA DE MANERA INALÁMBRICA</p></span>-Recarga el teléfono sin el molesto cableado gracias a la carga inalámbrica TurboPower de 50W y obtén batería para todo el día en solo 15 minutos.</span>",
+        "precio": 528000.00,
+        "stock": 10,
+        "marca": "Motorola",
+        "categoria": "celulares",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_912758-MLA54122070846_032023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_617736-MLA54122130519_032023-O.webp"
+        ]
+    },
+    {
+        "id": 4,
+        "producto": "Xiaomi Redmi Note 11",
+        "descripcion": "<p>Fotografía profesional en tu bolsillo</p><span>Descubrí infinitas posibilidades para tus fotos con las 4 cámaras principales de tu equipo. Poné a prueba tu creatividad y jugá con la iluminación, diferentes planos y efectos para obtener grandes resultados.</span><p>Experiencia visual increíble</p><span>Mirá tus series y películas favoritas con la mejor definición a través de su pantalla AMOLED de 6.43. Disfrutá de colores brillantes y detalles precisos en todos tus contenidos.</span><p>Mayor rendimiento</p><span>Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar.</span><p>Desbloqueo facial y dactilar</p><span>Máxima seguridad para que solo vos puedas acceder al equipo. Podrás elegir entre el sensor de huella dactilar para habilitar el teléfono en un toque, o el reconocimiento facial que permite un desbloqueo hasta un 30% más rápido.</span><p>Batería de duración superior</p><span>¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.</span>",
+        "precio": 132999.00,
+        "stock": 2,
+        "marca": "Xiaomi",
+        "categoria": "celulares",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_808114-MLU72340451071_102023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_863109-MLA52131662244_102022-O.webp"
+        ]
+    },
+    {
+        "id": 5,
+        "producto": "Samsung Galaxy A04e",
+        "descripcion": "<p>Doble cámara y más detalles</p> <span>Sus 2 cámaras traseras de 13 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.</span><span>Además, el dispositivo cuenta con cámara frontal de 5 Mpx para que puedas sacarte divertidas selfies o hacer videollamadas.</span><p> Más para ver</p><span>Con su pantalla PLS de 6.5, disfrutá de colores intensos y mayor nitidez en todos tus contenidos.</span><p>Mayor rendimiento</p><span>Su memoria RAM de 3 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar.</span><p> Reconocimiento facial para mayor seguridad</p><span>Acercá el dispositivo a tu rostro para desbloquearlo instantáneamente. Su precisa tecnología de reconocimiento facial te garantiza un acceso al equipo rápido y seguro.</span><p>Batería de duración superior</p><span>¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.</span><p> El espacio que necesitás</p><span>Con su memoria interna de 32 GB descargá tus aplicaciones favoritas y guardá todas las fotos y videos que quieras.</span>",
+        "precio": 66999.00,
+        "stock": 15,
+        "marca": "Samsung",
+        "categoria": "celulares",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_878928-MLA53351759895_012023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_736023-MLA53351759896_012023-O.webp"
+        ]
+    },
+    {
+        "id": 6,
+        "producto": "Samsung 43 Neo Qled 4k Qn90b",
+        "descripcion": "<p>Con el Smart TV QN43QN90BAG vas a acceder a las aplicaciones en las que se encuentran tus contenidos favoritos. Además, podés navegar por Internet, interactuar en redes sociales y divertirte con videojuegos.</p><p>Descubrí la tecnología QLED</p><span>Su pantalla con puntos cuánticos ofrece un volumen de color muy superior a cualquier LED del mercado, lo que significa que puede hacer que todos los colores del espectro disponible sean más brillantes sin perder saturación. Además, se distingue por ofrecer un mejor ángulo de visión sin perder calidad desde ninguna posición.</span><p> Viví en 4K</p><span>La cantidad de pixeles que ofrece es 4 veces mayor que la Full HD, ¿el resultado? Escenas mucho más realistas y con un nivel de detalle increíble. Ahora vas a conocer una aventura de inmersión que no va a dejar de sorprenderte.</span><p>Un sonido que te envuelve</p><span>Vas a sentir que proviene desde todas las direcciones posibles, lo cual enriquece la percepción del mismo. Los diálogos de tus series de fin de semana o la música de tus cantantes preferidos van a cobrar otro significado.</span><p>Más allá de ver televisión</p><span>Su función Screen Share permite duplicar la pantalla de tu smartphone, tablet o PC para que aparezca en la TV. De esta forma vas a poder visualizar todo tipo de contenido: material audiovisual, documentos de trabajo, correos electrónicos y más.</span>",
+        "precio": 549999.00,
+        "stock": 3,
+        "marca": "Samsung",
+        "categoria": "televisores",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_707869-MLU72113995498_102023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_910935-MLU69495199703_052023-O.webp"
+        ]
+    },
+    {
+        "id": 7,
+        "producto": "Smart TV AOC 32S5295/77G LED Xmart UI HD 32",
+        "descripcion": "<p>Con el Smart TV 32S5295 vas a acceder a las aplicaciones en las que se encuentran tus contenidos favoritos. Además, podés navegar por Internet, interactuar en redes sociales y divertirte con videojuegos.</p><p>Sumergite en la pantalla</p><span>Su resolución HD presenta imágenes con gran detalle y alta definición. Ahora todo lo que veas cobrará vida con brillo y colores más reales.</span>",
+        "precio": 128600.00,
+        "stock": 7,
+        "marca": "AOC",
+        "categoria": "televisores",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_906941-MLA53268544769_012023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_895191-MLA41969710781_052020-O.webp"
+        ]
+    },
+    {
+        "id": 8,
+        "producto": "Smart TV Philco PLD50US22A LED 4K 50",
+        "descripcion": "<p>Marca pionera en la industria de la tecnología y de los electrodomésticos a nivel mundial, Philco es sinónimo de calidad e innovación constante. Ofrece una amplia gama de televisores, pensados y creados para brindar el máximo confort a sus consumidores.</p><p>Con el Smart TV PLD50US22A vas a acceder a las aplicaciones en las que se encuentran tus contenidos favoritos. Además, podés navegar por Internet, interactuar en redes sociales y divertirte con videojuegos.</p><p>Viví en 4K</p><span>La cantidad de pixeles que ofrece es 4 veces mayor que la Full HD, ¿el resultado? Escenas mucho más realistas y con un nivel de detalle increíble. Ahora vas a conocer una aventura de inmersión que no va a dejar de sorprenderte.</span>",
+        "precio": 249999.00,
+        "stock": 2,
+        "marca": "Philco",
+        "categoria": "televisores",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_940458-MLA69874263375_062023-O.webp"
+        ]
+    },
+    {
+        "id": 9,
+        "producto": "Televisor Smart Tv Samsung 50 4k Un50tu7000",
+        "descripcion": "<p>Samsung es reconocida a nivel mundial como una empresa líder en la industria tecnológica. Todos sus productos son diseñados con una calidad superior y pensados para contribuir a un futuro mejor. Por eso, va a hacer que disfrutes de una experiencia visual incomparable.</p><p>Con el Smart TV UN50TU7000 vas a acceder a las aplicaciones en las que se encuentran tus contenidos favoritos. Además, podés navegar por Internet, interactuar en redes sociales y divertirte con videojuegos.</p><p>Viví en 4K</p><span>La cantidad de pixeles que ofrece es 4 veces mayor que la Full HD, ¿el resultado? Escenas mucho más realistas y con un nivel de detalle increíble. Ahora vas a conocer una aventura de inmersión que no va a dejar de sorprenderte.</span>",
+        "precio": 221206.00,
+        "stock": 6,
+        "marca": "Samsung",
+        "categoria": "televisores",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_878604-MLA44160072739_112020-O.webp"
+        ]
+    },
+    {
+        "id": 10,
+        "producto": "Smart TV Hitachi CDH-LE504KSMART26-F LED Google TV 4K 50",
+        "descripcion": "<p>Con el Smart TV CDH-LE504KSMART26-F vas a acceder a las aplicaciones en las que se encuentran tus contenidos favoritos. Además, podés navegar por Internet, interactuar en redes sociales y divertirte con videojuegos.</p><p>Viví en 4K</p><p> La cantidad de pixeles que ofrece es 4 veces mayor que la Full HD, ¿el resultado? Escenas mucho más realistas y con un nivel de detalle increíble. Ahora vas a conocer una aventura de inmersión que no va a dejar de sorprenderte.</p><p>Un sonido que te envuelve</p><span>Vas a sentir que proviene desde todas las direcciones posibles, lo cual enriquece la percepción del mismo. Los diálogos de tus series de fin de semana o la música de tus cantantes preferidos van a cobrar otro significado.</span><p>Más allá de ver televisión</p><span>Su función Screen Share permite duplicar la pantalla de tu smartphone, tablet o PC para que aparezca en la TV. De esta forma vas a poder visualizar todo tipo de contenido: material audiovisual, documentos de trabajo, correos electrónicos y más.</span>",
+        "precio": 241998.00,
+        "stock": 5,
+        "marca": "Hitachi",
+        "categoria": "televisores",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_906009-MLA69427985284_052023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_779312-MLA69438858035_052023-O.webp"
+        ]
+    },
+    {
+        "id": 11,
+        "producto": "Notebook Hp 14-dq0515la ",
+        "descripcion": "<p>La notebook HP 14-dq0515la es una solución tanto para trabajar y estudiar como para entretenerte. Al ser portátil, el escritorio dejará de ser tu único espacio de uso para abrirte las puertas a otros ambientes ya sea en tu casa o en la oficina.</p><p>Pantalla con gran impacto visual</p><span>Su pantalla LED de 14 y 1366x768 px de resolución te brindará colores más vivos y definidos. Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle.</span><p>Eficiencia a tu alcance</p><span>Con su procesador Intel Celeron de 4 núcleos, lograrás el desempeño que necesitás para navegar y trabajar. Podrás usar los programas más esenciales, llevar a cabo tus tareas y organizar tu vida diaria.</span><p>Potente disco sólido</p><span>El disco sólido de 256 GB hace que el equipo funcione a gran velocidad y por lo tanto te brinda mayor agilidad para operar con diversos programas.</span><p>Un procesador exclusivo para los gráficos</p><span>Su placa de video Intel UHD Graphics 600 convierte a este dispositivo en una gran herramienta de trabajo para cualquier profesional del diseño. Te permitirá lograr una gran performance en todos tus juegos y en otras tareas cotidianas que impliquen procesamiento gráfico.</span>",
+        "precio": 399999.00,
+        "stock": 2,
+        "marca": "HP",
+        "categoria": "notebooks",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_846400-MLA69387258943_052023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_754722-MLA69387258945_052023-O.webp"
+        ]
+    },
+    {
+        "id": 12,
+        "producto": "Notebook Lenovo Ip1 3114ada05 3020e",
+        "descripcion": "<p>Descubre la Notebook Lenovo IdeaPad 3114ADA05, una opción ideal para aquellos que buscan rendimiento y portabilidad en un solo dispositivo. Equipada con un procesador AMD Athlon Silver, 4 GB de memoria RAM DDR4 y un SSD de 64 GB, esta notebook te permitirá realizar tus tareas diarias con facilidad y rapidez. La pantalla de 14 pulgadas y resolución de 1336 x 768 px te brindará imágenes nítidas y claras, mientras que el sistema operativo Windows 11 Home te ofrecerá una experiencia de usuario intuitiva y segura. Además, la duración de la batería de 7.3 horas te permitirá trabajar o disfrutar de tus contenidos multimedia favoritos sin preocuparte por recargarla constantemente. Conectividad completa con puertos USB, HDMI y Bluetooth para que puedas conectar todos tus dispositivos y accesorios sin problemas. No esperes más para disfrutar de la calidad y el rendimiento que solo Lenovo puede ofrecerte.</p>",
+        "precio": 433305.00,
+        "stock": 6,
+        "marca": "Lenovo",
+        "categoria": "notebooks",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_929716-MLA53229865607_012023-O.webp"
+        ]
+    },
+    {
+        "id": 13,
+        "producto": "Notebook Lenovo Loq Intel Core I5 512gb Ssd 8gb Ram",
+        "descripcion": "<p>Lenovo LOQ Computadora portátil 39,6 cm (15.6) Full HD Intel Core i5-12450H 8 GB DDR5-SDRAM 512 GB SSD NVIDIA GeForce RTX 3050 Wi-Fi 6 (802.11ax) Windows 11 Home Storm Grey</p>",
+        "precio": 899999.00,
+        "stock": 5,
+        "marca": "Lenovo",
+        "categoria": "notebooks",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_633249-MLA71586146113_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_793449-MLA71586029101_092023-O.webp"
+        ]
+    },
+    {
+        "id": 14,
+        "producto": "Notebook Dell Inspiron 3525 plateada 15.",
+        "descripcion": "<p>Los equipos Dell se destacan por ofrecer soluciones reales para cada una de las necesidades. Ya sea para conectarte, entretenerte, trabajar o colaborar de manera online, podrás hacerlo de forma segura desde cualquier lugar y en cualquier momento.</p><p>Pantalla con gran impacto visual</p><span>Su pantalla LCD de 15.5 y 1920x1080 px de resolución te brindará colores más vivos y definidos. Tus películas y series preferidas cobrarán vida, ya que ganarán calidad y definición en cada detalle.</span>        <p>Eficiencia a tu alcance</p><span>Su procesador AMD Ryzen 5 de 6 núcleos, te permitirá ejecutar programas variados y procesos indispensables para desenvolverte en el día a día, ya sea en tu trabajo o en los momentos de ocio en tu hogar.</span>        <p>Potente disco sólido</p><span>El disco sólido de 256 GB hace que el equipo funcione a gran velocidad y por lo tanto te brinda mayor agilidad para operar con diversos programas.</span>        <p>Un procesador exclusivo para los gráficos</p><span>Su placa de video AMD Radeon RX Vega 7 convierte a este dispositivo en una gran herramienta de trabajo para cualquier profesional del diseño. Te permitirá lograr una gran performance en todos tus juegos y en otras tareas cotidianas que impliquen procesamiento gráfico.</span>",
+        "precio": 478999.00,
+        "stock": 5,
+        "marca": "Dell",
+        "categoria": "notebooks",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_881775-MLU70064712769_062023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_715616-MLA54577478879_032023-O.webp"
+        ]
+    },
+    {
+        "id": 15,
+        "producto": "Notebook Asus Vivobook Go 14",
+        "descripcion": "<p>El Asus Notebook Vivobook Go 14 Intel Celeron es la opción perfecta para aquellos que buscan un rendimiento confiable y una experiencia de uso fluida. Con su diseño elegante en color Dreamy White, este portátil combina estilo y funcionalidad en un solo dispositivo.</p><p>Con una duración de batería de hasta 12 horas, podrás trabajar o disfrutar de tu contenido favorito sin preocuparte por quedarte sin energía. Su batería de ion de litio te brinda la libertad de moverte sin restricciones.</p><p>Con un procesador Intel Celeron de 2 núcleos y 4 GB de memoria RAM DDR4, este portátil ofrece un rendimiento eficiente para realizar tus tareas diarias. Además, cuenta con un disco SSD de 128 GB, lo que te permite almacenar y acceder rápidamente a tus archivos y aplicaciones.</p><p>La pantalla de 14 pulgadas con resolución de 1366 x 768 píxeles y frecuencia de actualización de 60 Hz te ofrece una experiencia visual nítida y fluida. Además, su tarjeta gráfica Intel UHD Graphics 600 garantiza una reproducción de colores vibrante y realista.</p><p>Con un peso de solo 1.3 kg y un grosor de 1.84 cm, este portátil es ligero y compacto, ideal para llevarlo contigo a todas partes. Además, su diseño incluye una pantalla antirreflejo, lo que te permite trabajar o disfrutar de tu contenido incluso en condiciones de iluminación desfavorables.</p><p>Conectividad sin límites es lo que ofrece este Asus Notebook. Cuenta con Bluetooth, HDMI, salida para auriculares, micrófono, pad numérico y puertos USB, lo que te permite conectar tus dispositivos y periféricos sin problemas. Además, su cámara web y Wi-Fi integrados te mantienen conectado y en contacto con tus seres queridos.</p><p>En resumen, el Asus Notebook Vivobook Go 14 Intel Celeron es la elección perfecta para aquellos que buscan un portátil confiable, con un rendimiento eficiente y un diseño elegante. No pierdas la oportunidad de disfrutar de una experiencia única con este increíble dispositivo.</p>",
+        "precio": 209999.00,
+        "stock": 5,
+        "marca": "Asus",
+        "categoria": "notebooks",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_683136-MLU71107726338_082023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_840220-MLU71107726344_082023-O.webp"
+        ]
+    },
+    {
+        "id": 16,
+        "producto": "Waflera Sandwichera Ultracomb Grill Panini 3 En 1 con 3 Placas Intercambiables Color Negro",
+        "descripcion": "<p>Con la sandwichera eléctrica Ultracomb tendrás un complemento ideal para tu cocina. Podrás preparar los mejores sándwiches tostados.</p>",
+        "precio": 22099.00,
+        "stock": 5,
+        "marca": "Ultracomb",
+        "categoria": "electrodomesticos",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_836395-MLA54385565111_032023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_973181-MLA42137137267_062020-O.webp"
+        ]
+    },
+    {
+        "id": 17,
+        "producto": "Freidora De Aire Eléctrica Air Fryer Sin Aceite 4 Lts 1000w",
+        "descripcion": "<p>Freidora de aire de 4L sin aceite</p><p>Ventana de visualización de vidrio, funciones 4 en 1 (freír, hornear, asar, calentar), apta para comidas rápidas y cómodas, pantalla táctil digital LED, cocción inteligente con aire caliente, cocción visible. Cesta antiadherente fácil de limpiar.</p><li>-Número de configuraciones/programas 4 </li><li>-Fuerza 1000W</li><li>-Características: Circulación de aire, Automático, Apagado automático, Bandeja para migas, Pantalla digital, Fácil limpieza, Ajuste para mantener caliente, Pantalla LCD, Pantalla LED, Horno multifunción, Antiadherente, Portátil, Programable, Recalentar, Cesta extraíble, Control de temperatura, Temporizador.</li><li>-Fuente de alimentación Eléctrico</li>",
+        "precio": 65000.00,
+        "stock": 5,
+        "marca": "Air Fryer",
+        "categoria": "electrodomesticos",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_691735-MLA48939534180_012022-O.webp"
+        ]
+    },
+    {
+        "id": 18,
+        "producto": "Philco Pe1821npp Pava Eléctrica C/ Regulador De Temperatura",
+        "descripcion": "<p>¡Tené el agua caliente siempre lista! Con la pava eléctrica Philco PE1821NPP vas a poder disfrutar de una bebida caliente en minutos. Ganá tiempo y prepará ese mate, cafecito o porqué no, esa sopa instantánea que tanto te gusta.</p><p>Bebidas calientes a tu gusto</p><span>¿Sabías que para mejorar el sabor, las bebidas calientes tienen que prepararse a determinada temperatura? Gracias al control que incorpora este modelo, vas a lograr que cada mate, té o café sea perfecto.</span><p>Evitá desperdicio de energía y gas</p><span>La seguridad es muy importante, por eso, cuando el agua está lista, la jarra se apaga automáticamente permitiendo a su vez, ahorrar energía</span>",
+        "precio": 21999.00,
+        "stock": 5,
+        "marca": "Philco",
+        "categoria": "electrodomesticos",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_899903-MLA50418439095_062022-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_826309-MLU70027361405_062023-O.webp"
+        ]
+    },
+    {
+        "id": 19,
+        "producto": "Multiprocesadora Atma LP8425E 650W blanca 220V",
+        "descripcion": "<p>A la hora de elaborar tus platos favoritos, todas tus necesidades estarán cubiertas fácilmente con esta multiprocesadora Atma. Descubrí una nueva forma de cocinar y sorprendé a tu familia con las preparaciones más ricas. Este electrodoméstico logrará transformar los alimentos en el menor tiempo y se convertirá en tu ayudante imprescindible en la cocina.</p><p>Como un chef profesional</p><span>¡Abrí el libro de recetas y poné manos a la obra! Lograrás tener resueltos tus almuerzos y cenas en pocos pasos y sin limitaciones. Usala para preparar licuados bien frescos, perfectos para esas tardes calurosas de verano. Prepará diversas salsas dulces o saladas y dale el toque final a todas tus creaciones. Amasá la mezcla de tus galletitas o panes caseros y viví la aventura de tener una panadería en casa.</span><p>Todo en uno</p><span>Por otro lado, se complementa con sus accesorios ya que incluye: amasador, cuchilla, disco rallador rebanador, emulsionador, exprimidor, jarra licuadora, procesador de verduras. Son fáciles de utilizar e intercambiar ya que encajan perfectamente gracias a su diseño.</span>",
+        "precio": 57499.00,
+        "stock": 5,
+        "marca": "Atma",
+        "categoria": "electrodomesticos",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_857983-MLA32854226100_112019-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_622935-MLA32853995931_112019-O.webp"
+        ]
+    },
+    {
+        "id": 20,
+        "producto": "Lavarropas semiautomático con centrifugado Kanji XPB55-655S blanco 5.5kg 220 V",
+        "descripcion": "<p>El lavarropas con centrifugado Kanji XPB55-655S ofrece gran comodidad y un uso eficaz para el lavado de tu ropa. Su doble función hará que ahorres tiempo y espacio</p>",
+        "precio": 153099.00,
+        "stock": 3,
+        "marca": "Kanji",
+        "categoria": "electrodomesticos",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_730076-MLA42779069875_072020-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_740993-MLA42779020616_072020-O.webp"
+        ]
+    },
+    {
+        "id": 21,
+        "producto": "Tablet Aiwa Tablet TA-10-464 10.1 64GB gris y 4GB de memoria RAM",
+        "descripcion": "<p>Esta tablet es la combinación perfecta de rendimiento y versatilidad, ideal para acompañar cada una de tus actividades.</p><p>Transferir, sincronizar y acceder a tus dispositivos las veces que quieras ahora es posible. Sus conexiones wi-fi, bluetooth te permiten potenciar sus funciones al máximo.</p><p>Capturá todos tus momentos al instante</p><span> Gracias a sus cámaras, con resoluciones de 5 Mpx y 2 Mpx, podrás hacer videollamadas o sacarte fotos en cualquier momento y lugar, con una excelente calidad de imagen. Nitidez, brillo y colores vibrantes harán que tus experiencias se reflejen de manera óptima.</span>",
+        "precio": 105599.00,
+        "stock": 3,
+        "marca": "Aiwa",
+        "categoria": "tablets",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_644299-MLA71583854971_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_661141-MLA71535621694_092023-O.webp"
+        ]
+    },
+    {
+        "id": 22,
+        "producto": "Tablet 10 Positivo Tab Q10 64gb",
+        "descripcion": "<p>Esta tablet es la combinación perfecta de rendimiento y versatilidad, ideal para acompañar cada una de tus actividades.</p><p>Transferir, sincronizar y acceder a tus dispositivos las veces que quieras ahora es posible. Sus conexiones 802.11 a/b/g/n/ac + bluetooth + gps te permiten potenciar sus funciones al máximo</p>",
+        "precio": 79999.00,
+        "stock": 3,
+        "marca": "Positivo BGH",
+        "categoria": "tablets",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_786739-MLU70030970365_062023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_699119-MLU54965036441_042023-O.webp"
+        ]
+    },
+    {
+        "id": 23,
+        "producto": "Tablet 10 Pulgadas Chip Celular 4gb Ram 64 Gb Gamer Xplode",
+        "descripcion": "<p>Esta tablet es la combinación perfecta de rendimiento y versatilidad, ideal para acompañar cada una de tus actividades.</p><p>Capturá todos tus momentos al instante</p><span>Gracias a sus cámaras, con resoluciones de 13 mpx y 5 Mpx, podrás hacer videollamadas o sacarte fotos en cualquier momento y lugar, con una excelente calidad de imagen. Nitidez, brillo y colores vibrantes harán que tus experiencias se reflejen de manera óptima.</span>",
+        "precio": 107999.00,
+        "stock": 4,
+        "marca": "Xiaomi",
+        "categoria": "tablets",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_660079-MLU54979493241_052023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_762333-MLU54979495169_052023-O.webp"
+        ]
+    },
+    {
+        "id": 24,
+        "producto": "Tablet Samsung Galaxy Tab S S6 Lite SM-P613 10.4 64GB angora blue y 4GB de memoria RAM",
+        "descripcion": "<p>Esta tablet Samsung es la compañera ideal, con capacidad de sobra para cada una de tus actividades. El diseño delgado, compacto y portátil, con facilidad para sostener en una mano, lo convierte en una combinación perfecta de rendimiento y versatilidad.</p><p>Transferir, sincronizar y acceder a tus dispositivos las veces que quieras ahora es posible. Sus conexiones wi-fi, wi-fi direct, bluetooth, smart switch, usb-c 2.0 te permiten potenciar sus funciones al máximo.</p><p>Capturá todos tus momentos al instante</p><span>Gracias a sus cámaras, con resoluciones de 8 Mpx y 5 Mpx, podrás hacer videollamadas o sacarte fotos en cualquier momento y lugar, con una excelente calidad de imagen. Nitidez, brillo y colores vibrantes harán que tus experiencias se reflejen de manera óptima.</span>",
+        "precio": 271999.99,
+        "stock": 4,
+        "marca": "Samsung",
+        "categoria": "tablets",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_685209-MLA54436656050_032023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_728116-MLA54434437857_032023-O.webp"
+        ]
+    },
+    {
+        "id": 25,
+        "producto": "iPad Apple 10th generation 2022 A2696 256GB azul",
+        "descripcion": "<p>Este producto combina la potencia y la capacidad de una computadora con la versatilidad y facilidad de uso que solo un iPad puede brindar. Realizar varias tareas a la vez, como editar documentos mientras buscás información en internet o sacarte una selfie, es sumamente sencillo. Como si esto fuera poco, también ofrece la posibilidad de descargar desde la App Store cientos de aplicaciones creadas para pintar, dibujar, escuchar música y ¡mucho más!</p><p>Capturá todos tus momentos al instante</p><span>Gracias a sus cámaras, con resoluciones de 12 Mpx y 12 Mpx, podrás hacer videollamadas o sacarte fotos en cualquier momento y lugar, con una excelente calidad de imagen. Nitidez, brillo y colores vibrantes harán que tus experiencias se reflejen de manera óptima.</span>",
+        "precio": 899999.00,
+        "stock": 4,
+        "marca": "Xiaomi",
+        "categoria": "tablets",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_764857-MLA52988770506_122022-O.webp"
+        ]
+    }
+]
