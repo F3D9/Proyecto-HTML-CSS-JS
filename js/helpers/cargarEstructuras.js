@@ -17,7 +17,7 @@ export function cargarEstructuras() {
             </a>
         </ul>
 
-        <button class="boton"><a href="/">Ingresar</a></button>
+        <a  class="boton"href="/">Ingresar</a>
     </nav>
 </header>`
     const Footer = `<footer>
