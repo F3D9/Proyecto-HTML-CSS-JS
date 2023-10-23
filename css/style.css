@@ -301,9 +301,18 @@ form {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-content: center;
     gap: 2rem;
 }
 
+.productos .loader {
+    width: 100%;
+    font-size: 2rem;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .producto-card {
