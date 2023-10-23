@@ -13,8 +13,11 @@
 }
 
 body {
-    height: 100vh;
-    background-image: linear-gradient(to right, var(--oscuro) 0%, var(--primario) 10%, var(--primario) 95%, var(--oscuro) 100%);
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/tecnologia.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -113,6 +116,7 @@ main {
 
 main h1 {
     margin: 2rem 0;
+    color: white;
 }
 
 .carrusel {
