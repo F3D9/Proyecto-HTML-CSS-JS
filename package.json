@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-html-css-js",
+  "version": "1.0.0",
+  "description": "Proyecto HTML-CSS-JavaScript de codo a codo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F3D9/Proyecto-HTML-CSS-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F3D9/Proyecto-HTML-CSS-JS/issues"
+  },
+  "homepage": "https://github.com/F3D9/Proyecto-HTML-CSS-JS"
+}
