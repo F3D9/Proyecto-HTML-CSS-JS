@@ -10,8 +10,8 @@ async function traerLosProductos() {
 
 export async function cargarProductos() {
     let seccionProductos = document.querySelector(".productos")
+    let loader = document.querySelector(".loader")
     let productos = await traerLosProductos()
-
     for (let i = 0; i < productos.length; i++) {
         let templateProductos = `
     <section class="producto-card">
@@ -31,4 +31,5 @@ export async function cargarProductos() {
         `
         seccionProductos.insertAdjacentHTML("afterbegin", templateProductos)
     }
+    loader.style.display = "none"
 }
