@@ -207,7 +207,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 14vh;
+    min-height: 14vh;
     margin-top: 3rem;
 }
 
@@ -428,8 +428,31 @@ p {
 /*//////////////////////////RESPONSIVE //////////////////////////////////////////*/
 
 @media (max-width:768px) {
+    main h1 {
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        min-height: 22vh;
+    }
+
+    footer .enlaces {
+        flex-wrap: wrap;
+        gap: 3rem
+    }
+
+    .carrusel .img img {
+        width: 100%;
+        object-fit: contain;
+    }
+
     .formulario form {
         width: 90%;
+    }
+
+    .formulario form .input-form {
+        gap: 1rem;
     }
 
     .menu {
@@ -479,5 +502,11 @@ p {
 
     p {
         font-size: 1em;
+    }
+}
+
+@media(max-width:480px) {
+    footer {
+        min-height: 30vh;
     }
 }
