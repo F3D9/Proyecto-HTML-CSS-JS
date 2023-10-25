@@ -8,7 +8,7 @@ async function traerLosProductos() {
     }
 }
 
-export async function cargarProductos() {
+export async function cargarProductosHome() {
     let seccionProductos = document.querySelector(".productosHome")
     let loader = document.querySelector(".loaderHome")
     let productos = await traerLosProductos()
