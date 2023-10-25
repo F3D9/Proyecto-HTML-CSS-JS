@@ -12,6 +12,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.menu,
+.cross {
+    display: none;
+}
+
 body {
     min-height: 100vh;
     width: 100%;
@@ -39,7 +44,7 @@ header {
     background-color: var(--primario);
     padding: 15px 20px;
     width: 100%;
-    height: 12vh;
+    min-height: 12vh;
 }
 
 nav {
@@ -55,7 +60,12 @@ nav .enlaces {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-size: 18px;
+}
+
+nav .enlaces a {
+    color: white;
 }
 
 nav .enlaces a li {
@@ -83,14 +93,14 @@ nav .boton {
     font-size: 18px;
     border-radius: 20px;
     border: none;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 nav .boton:hover {
-    background-color: black;
+    background-color: white;
     transition: all .3s ease-in-out;
-    color: white;
+    color: black;
 }
 
 
@@ -103,7 +113,7 @@ footer .logo {
 
 nav .logo img,
 footer .logo img {
-    width: 100%;
+    width: 250px;
     height: 10vh;
     object-fit: cover;
 }
@@ -119,7 +129,7 @@ main h1 {
     color: white;
 }
 
-.NosotrosH1{
+.NosotrosH1 {
     margin: 2rem 0;
     color: white;
     font-size: 4.5em;
@@ -175,7 +185,7 @@ main h1 {
 .carrusel .punto {
     width: 2em;
     height: 2em;
-    background-color: blue;
+    background-color: white;
     border-radius: 50%;
     border: 1px solid black;
     cursor: pointer;
@@ -184,7 +194,7 @@ main h1 {
 .carrusel .punto.activo {
     width: 2em;
     height: 2em;
-    background-color: red;
+    background-color: black;
 }
 
 footer {
@@ -223,6 +233,7 @@ footer .copy {
     position: absolute;
     bottom: 5px;
     right: 5px;
+    font-size: 12px;
 }
 
 /*PAGINA LOGIN*/
@@ -247,7 +258,7 @@ footer .copy {
 }
 
 form {
-    width: 35%;
+    width: 50%;
     min-height: 400px;
     box-shadow: 0px 0px 10px white;
     padding: 2rem;
@@ -371,6 +382,7 @@ form {
     color: white;
     padding: 1rem 1.5rem;
     border-radius: 20px;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -405,10 +417,67 @@ form {
     align-items: center;
 }
 
-p{
+p {
     text-align: justify;
     font-size: 1.5em;
     font-family: system-ui;
     color: white;
     font-weight: 500;
+}
+
+/*//////////////////////////RESPONSIVE //////////////////////////////////////////*/
+
+@media (max-width:768px) {
+    .formulario form {
+        width: 90%;
+    }
+
+    .menu {
+        display: flex;
+        cursor: pointer;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav .logo {
+        width: 100%;
+        margin: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .enlaces {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        min-height: 60vh;
+    }
+
+    nav .enlaces a {
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+
+    nav .enlaces a:hover:not(.boton) {
+        background-color: var(--oscuro);
+    }
+
+    .carrusel {
+        width: 100%;
+    }
+
+    .NosotrosH1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
 }
