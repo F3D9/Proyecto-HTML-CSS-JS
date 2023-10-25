@@ -398,3 +398,6 @@ form {
     align-items: center;
 }
 
+p{
+    text-align: justify;
+}
