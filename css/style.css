@@ -119,6 +119,13 @@ main h1 {
     color: white;
 }
 
+.NosotrosH1{
+    margin: 2rem 0;
+    color: white;
+    font-size: 4.5em;
+    text-decoration: underline;
+}
+
 .carrusel {
     border: 1px solid black;
     border-radius: 1.5em;
@@ -400,4 +407,8 @@ form {
 
 p{
     text-align: justify;
+    font-size: 1.5em;
+    font-family: system-ui;
+    color: white;
+    font-weight: 500;
 }
