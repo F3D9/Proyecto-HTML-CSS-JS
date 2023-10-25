@@ -12,7 +12,7 @@ export async function cargarProductos() {
     let seccionProductos = document.querySelector(".productos")
     let loader = document.querySelector(".loader")
     let productos = await traerLosProductos()
-    for (let i = 0; i < productos.length; i++) {
+    for (let i = 0; i < productos.length -1; i++) {
         let templateProductos = `
     <section class="producto-card">
         <span>${productos[i].categoria}</span>

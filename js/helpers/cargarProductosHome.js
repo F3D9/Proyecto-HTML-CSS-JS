@@ -9,8 +9,8 @@ async function traerLosProductos() {
 }
 
 export async function cargarProductosHome() {
-    let seccionProductos = document.querySelector(".productosHome")
-    let loader = document.querySelector(".loaderHome")
+    let seccionProductos = document.querySelector("#Home")
+    let loader = document.querySelector("#HomeLoader")
     let productos = await traerLosProductos()
     for (let i = 0; i < 4; i++) {
         let templateProductos = `
