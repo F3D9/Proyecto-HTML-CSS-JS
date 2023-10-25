@@ -379,3 +379,9 @@ form {
     font-size: 1rem;
     text-transform: capitalize;
 }
+
+.small_section{
+    display: flex;
+    flex-direction:row;
+
+}

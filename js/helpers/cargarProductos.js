@@ -33,3 +33,4 @@ export async function cargarProductos() {
     }
     loader.style.display = "none"
 }
+

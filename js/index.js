@@ -8,5 +8,6 @@ document.addEventListener("DOMContentLoaded", e => {
     cargarEstructuras(),
         falsoLogin(),
         movimientoCarrusel(),
+        cargarProductosHome(),
         cargarProductos()
 })
